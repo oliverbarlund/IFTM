@@ -3,59 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3 - Layout com Div</title>
+    <title>Exercício de Estilização</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4; 
-        }
-
-       
-        div {
-            background-color: #CAF3FF; 
-            border-left: 10px solid #FF3300; 
-            border-right: 10px solid #FF3300; 
-            margin: 50px; 
-            
-            
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-        }
-
-        
+        /* Configurações do Título */
         h1 {
-            font-size: 30px;
-            border-bottom: 1px solid #FF3300; 
-            padding-bottom: 10px;
-            margin-top: 0;
+            color: red;
+            background-color: yellow;
+            text-align: center;
+            /* A imagem mostra uma fonte com serifa, como Times New Roman */
+            font-family: "Times New Roman", Times, serif; 
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 10px;
+            text-decoration: underline;
+            margin: 0; /* Remove margens externas para encostar no fundo */
+            padding: 10px;
         }
 
-        
+        /* Configurações do Parágrafo */
         p {
-            line-height: 2.0; 
-            font-size: 14px;
-            color: #333; 
-            margin-bottom: 0; 
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            line-height: 3.0; /* Espaçamento triplo */
+            font-style: italic;
+            background-color: #e0e0e0; /* Cinza claro */
+            margin-top: 20px;
+            padding: 15px;
         }
     </style>
 </head>
 <body>
 
-    <div>
-        <h1>Título 1</h1>
-        <p>
-            Este é apenas um exemplo de texto. Este é apenas um exemplo de texto. 
-            Este texto foi replicado para garantir que o parágrafo tenha o volume necessário para simular o layout da imagem. 
-            As configurações de CSS aplicadas aqui seguem rigorosamente o que foi solicitado: bordas laterais grossas e laranjas, além de um fundo azul claro para a caixa principal de conteúdo. 
-            O espaçamento interno garante que o texto não encoste nas bordas coloridas. 
-            O título possui uma linha fina abaixo dele, separando-o do corpo do texto. 
-            O espaçamento entre as linhas deste parágrafo é duplo, facilitando a leitura e ocupando mais espaço vertical. 
-            Continuamos escrevendo para preencher o bloco e garantir que visualmente ele se pareça com o exemplo fornecido na imagem. 
-            Esta estrutura é muito comum para destacar blocos de informação ou notas importantes em páginas web. 
-            Finalizando a réplica do texto para completar o exercício proposto.
-        </p>
-    </div>
+    <h1>Titulo</h1>
+
+    <p>
+        Este é o parágrafo de exemplo estilizado com CSS. O espaçamento entre as linhas é triplo, 
+        o que facilita a leitura e atende aos requisitos do exercício. O fundo possui uma cor 
+        cinza claro para destacar o bloco de texto, enquanto a fonte Arial e o estilo itálico 
+        garantem a formatação desejada.
+    </p>
 
 </body>
 </html>
